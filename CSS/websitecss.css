@@ -9,7 +9,7 @@ body {
     background: greenyellow;
     text-align: center;
     border: 5px black;
-    padding: 20px;
+    
     grid-column: 1 / 5;
     border: 10px solid black;
   } 
