@@ -25,7 +25,7 @@ header {
 }
 h1 { font-size: 1rem;}
 nav {
-	background-color: black;
+	background-color: rgb(75, 75, 75);
 	color: white;
 	padding: 7px;
 	grid-area: nav;
@@ -50,7 +50,7 @@ picture {
 	text-align:center;
 }
 footer {
-	background-color: black;
+	background-color: rgb(255, 166, 0);
 	color: white;
 	padding: 7px;
 	font-size: smaller;
@@ -63,7 +63,7 @@ footer {
 
 @media only screen and (min-width: 40em) {
 	.gridarea {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-areas:
     "header  header  header"
 		"nav main main"
@@ -71,7 +71,8 @@ footer {
 	}
 	
 	header {
-	  background-color: #999;
+	  background-color: #ffa600;
+	  grid-area: header;
 	  grid-template-columns: 250px 1fr;
   }
 	
@@ -80,6 +81,6 @@ footer {
 	h1 {font-size: 2rem;}
 	h2 
 	.icon {width: 80px; height: auto; }
-  .bimage { width: 200px; height: auto;}
+  	.bimage { width: 200px; height: auto;}
 	
 }
