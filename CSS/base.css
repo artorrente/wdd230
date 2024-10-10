@@ -29,9 +29,9 @@ body {
     text-align: center;
     font-size: 20px;
   }
-    img {
-      border: 5px solid black;
-    }
+  img {
+    border: 5px solid black;
+  }
   
   main {
     background: red;
