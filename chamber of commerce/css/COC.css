@@ -1,0 +1,148 @@
+body {
+    margin: auto;
+    grid-gap: 10px;
+    max-width: 1500px;
+    display: grid;
+    grid-template: 300px/ 500px 500px 500px;
+    
+  }
+  p{
+    padding: 10px;
+  }
+  h1{
+    font-size: 70px;
+  }
+  menu{
+    grid-column: 1 / 4;
+    
+    border: 5px solid rgb(207, 49, 49);
+    height: 300px;
+    
+  .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(207, 49, 49);
+  }
+  }
+  white-space{
+    grid-column: 1 / 4;
+    height:200px;
+    border: 5px solid rgb(207, 49, 49);
+    background-image: url("perysmall.jpg");
+    background-repeat: no-repeat;
+    
+  }
+  white-box{
+    border:1px solid gray;
+    position:absolute;
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  white-box:hover{
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+  }
+  orange-box{
+    background-color: orange;
+    position:absolute;
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub_div {
+    position: absolute;
+    bottom: 0px;
+}
+  .navigation a {
+    width: 300px;    
+    
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    
+}
+.button{
+    border:1px solid gray;
+    position:absolute;
+    text-align: center;
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+  font-weight: 700;
+}
+.navigation a:hover {
+    height: 20px;
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+}
+  .navigation {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	text-align: center;
+  align-items: center;
+	width:1500px;
+  position: relative;
+  top: 65px;
+  left: 40px;
+    
+}
+.active::before {
+	content: "📍";  /* just a wayfinding symbol for the user */
+}
+.active {
+	font-weight: bold;
+	text-decoration: underline;
+} 
+  intro-image{
+    position: relative;
+    grid-column: 1 / 4;
+    padding: 20px;
+
+  }
+  body-left{
+    grid-column: 1 / 1;
+    
+    
+  }
+  body-center{
+    grid-column: 2 / 2;
+    align-items: center;
+  }
+  body-right{
+    grid-column: 3 / 3;
+    position: relative;
+    left: 87px;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  bottom-image{
+    grid-column: 1 / 4;
+    background-image: url("AFLT.jpg");
+    background-repeat: no-repeat;
+    height: 310px;
+    
+  }
+  footer{
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    height: 200px;
+  }

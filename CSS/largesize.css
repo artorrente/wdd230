@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+    nav .nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: var(--licorice);
+        max-width: 80%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    nav .open {
+        padding: 0;
+        width: 80%
+    }
+    .nav li {
+        display: block;
+        flex: 1 1 100%;
+        padding: 30px 10px;
+        border-radius: 10px 10px 0 0;
+    }
+    .left-col {
+        grid-column: 1/9
+    }
+    .right-col {
+        grid-column: 9/13
+    }
+    #hamburger {
+        display: none;
+    }
+}

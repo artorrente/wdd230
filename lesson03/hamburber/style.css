@@ -30,7 +30,7 @@ nav {
 	background: none;
 	color: #000;
  	position: absolute;
-	top: 150px;
+	top: 15px;
 	right: 15px;
 }
 
@@ -39,7 +39,7 @@ nav {
 }
 
 #menu.open::before {
-	content: "❎";
+	content: "❌";
 }
 
 .navigation {
@@ -69,11 +69,11 @@ nav {
 }
 
 .active::before {
-	content: ":0";  /* just a wayfinding symbol for the user */
+	content: "📍";  /* just a wayfinding symbol for the user */
 }
 .active {
 	font-weight: bold;
-	font-size: 18px;
+	text-decoration: underline;
 }
 .stuff {
 	margin: .5m;

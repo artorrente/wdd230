@@ -15,7 +15,6 @@ body {
     border: 5px black;
     grid-column: 1 / 5;
     height: 350px;
-    border: 10px solid black;
   } 
   temple {
     background: lightblue;
@@ -30,7 +29,13 @@ body {
     text-align: center;
     font-size: 20px;
   }
-
+  white-box{
+    border:5px solid gray;
+  }
+  orange-box{
+    background-color: orange;
+    border:5px solid gray;
+  }
   
   main {
     background: red;
