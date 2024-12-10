@@ -12,9 +12,9 @@ body {
   h1{
     font-size: 70px;
   }
-  menu{
+  header{
     grid-column: 1 / 4;
-    
+    text-align: center;
     border: 5px solid rgb(207, 49, 49);
     height: 300px;
     
@@ -145,4 +145,5 @@ body {
     grid-column: 1 / 4;
     border: 1px solid gray;
     height: 200px;
+    text-align: center;
   }

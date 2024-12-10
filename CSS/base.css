@@ -16,7 +16,7 @@ body {
     grid-column: 1 / 5;
     height: 350px;
   } 
-  temple {
+  figure {
     background: lightblue;
     grid-column: 1 / 5;
   }
